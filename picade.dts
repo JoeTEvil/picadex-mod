@@ -117,7 +117,7 @@
 
 				enter: enter {
 					label = "Enter";
-					linux,code = <59>;
+					linux,code = <42>;
 					gpios = <&gpio 27 1>;
 				};
 
