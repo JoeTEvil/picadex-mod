@@ -12,10 +12,12 @@
 				brcm,function = <0>;
 				brcm,pull = <2>;
 			};
+			/*
 			power_ctrl_pins: power_ctrl_pins {
 				brcm,pins = <4>;
 				brcm,function = <1>;
 			};
+			*/
 			shutdown_button_pins: shutdown_button_pins {
 				brcm,pins = <17>;
 				brcm,function = <0>;
@@ -23,6 +25,7 @@
 		};
 	};
 	
+	/*
 	fragment@1 {
 		target-path = "/";
 		__overlay__ {
@@ -33,6 +36,7 @@
 			};
 		};
 	};
+	*/
 
 	fragment@2 {
 		target-path = "/";
