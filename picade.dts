@@ -99,7 +99,7 @@
 
 				button6: button6 {
 					label = "Button 6";
-					linux,code = 31>;
+					linux,code = <31>;
 					gpios = <&gpio 10 1>;
 				};
 
